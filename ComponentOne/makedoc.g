@@ -9,4 +9,3 @@ fi;
 
 AutoDoc( "ComponentOne" : scaffold := true, autodoc := true );
 
-QUIT;

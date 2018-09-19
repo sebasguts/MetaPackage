@@ -9,4 +9,3 @@ fi;
 
 AutoDoc( "ComponentTwo" : scaffold := true, autodoc := true );
 
-QUIT;
