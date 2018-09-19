@@ -8,7 +8,7 @@
 #
 SetPackageInfo( rec(
 
-IsMetaPackage := true,
+HasSubpackage := true,
 
 PackageName := "Metapackage",
 Subtitle := "Component project",
