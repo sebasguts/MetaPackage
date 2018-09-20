@@ -33,9 +33,9 @@ Persons := [
   ),
 ],
 
-PackageWWWHome := "http://TODO/",
+PackageWWWHome := "https://sebasguts.github.io/MetaPackage",
 
-ArchiveURL     := Concatenation( ~.PackageWWWHome, "MetaPackage-", ~.Version ),
+ArchiveURL     := Concatenation( "https://github.com/sebasguts/MetaPackage/releases/download/MetaPackage-", ~.Version, "/MetaPacakge-", ~.Version ),
 README_URL     := Concatenation( ~.PackageWWWHome, "README" ),
 PackageInfoURL := Concatenation( ~.PackageWWWHome, "PackageInfo.g" ),
 
