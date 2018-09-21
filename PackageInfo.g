@@ -13,7 +13,7 @@ HasSubpackage := true,
 PackageName := "Metapackage",
 Subtitle := "Component project",
 Version := "0.1",
-Date := "17/09/2018", # dd/mm/yyyy format
+Date := "21/09/2018", # dd/mm/yyyy format
 
 Persons := [
   rec(
@@ -26,7 +26,7 @@ Persons := [
     PostalAddress := Concatenation(
                "Department of Mathematics\n",
                "University of Siegen\n",
-               "57072 Kaiserslautern\n",
+               "57072 Siegen\n",
                "Germany" ),
     Place := "Siegen",
     Institution := "University of Siegen",
@@ -53,14 +53,14 @@ Status := "dev",
 
 AbstractHTML   :=  "",
 
-PackageDoc := rec(
-  BookName  := "MetaPackage",
-  ArchiveURLSubset := ["doc"],
-  HTMLStart := "doc/chap0.html",
-  PDFFile   := "doc/manual.pdf",
-  SixFile   := "doc/manual.six",
-  LongTitle := "Component project",
-),
+# PackageDoc := rec(
+#   BookName  := "MetaPackage",
+#   ArchiveURLSubset := ["doc"],
+#   HTMLStart := "doc/chap0.html",
+#   PDFFile   := "doc/manual.pdf",
+#   SixFile   := "doc/manual.six",
+#   LongTitle := "Component project",
+# ),
 
 Dependencies := rec(
   GAP := ">= 4.6",
